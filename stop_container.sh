@@ -2,6 +2,6 @@
 set -e
 
 # Stop the running container (if any)
-docker ps | awk '{print $1}'
-
+co=$(docker ps | awk '{print $1}')
+docker rm -f $co
 
