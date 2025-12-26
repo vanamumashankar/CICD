@@ -5,6 +5,7 @@ set -e
 docker push umashankar2409/simple-python-flask-app:latest
 
 # Run the Docker image as a container
-docker run -d -p 5000:6000  umashankar2409/simple-python-flask-app:latest
+docker run -d -p 6000:5000  umashankar2409/simple-python-flask-app:latest
+
 
 
